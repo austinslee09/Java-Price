@@ -1,7 +1,6 @@
 // Coding Challenge 2a
 let productName= "potato";
 const costPerUnit = 12.5
-costPerUnit
 const basePrice = 19.99;
 const discountRate = .25;
 const salesTaxRate = .07;
