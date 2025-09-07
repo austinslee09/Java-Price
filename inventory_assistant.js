@@ -1,11 +1,11 @@
 // Coding Challenge 2b
-const itemName = ("USB-C Cable")
-const unitCost = 2
-const currentStock = 250
-const reorderLevel = 125
-const targetStock = 300
-const weeklyDemand = 50
-const supplierLeadTimeWeeks = .5
+const itemName = ("USB-C Cable");
+const unitCost = 2;
+const currentStock = 250;
+const reorderLevel = 125;
+const targetStock = 300;
+const weeklyDemand = 50;
+const supplierLeadTimeWeeks = .5;
 
 let weeksOfCover= weeklyDemand > 0 ? currentStock / weeklyDemand : Infinity
 let stockDeficit= Math.max(0, targetStock - currentStock)
